@@ -1,0 +1,43 @@
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+.card {
+    border-radius: 10px;
+    margin-top: 1rem;
+    display: flex;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    /* Box Shadow */
+    box-shadow: 1px 1px 10px 0px rgb(54, 54, 55);
+    width: min-content; 
+    max-width: 600px; 
+    padding: 20%;
+}
+
+
+  @media (max-width: 768px) { /* For screens less than 768px */
+    .card {
+      max-width: 100%; /* Set full width on smaller screens */
+    }
+  }
+
+.form {
+    box-sizing: border-box;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid hsl(0, 0%, 90%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    box-shadow: 1px 1px 10px 0px rgb(54, 54, 55);
+  }
+
+  .full-width {
+    grid-column: span 2;
+  }
+  

@@ -1,0 +1,11 @@
+.expanded-row {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .3s ease-in-out;
+  }
+  
+  .expanded.expanded-row {
+    max-height: 100px; /* Adjust the height as needed */
+    transition: max-height 0.3s ease-in-out;
+  }
+  

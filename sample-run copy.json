@@ -1,0 +1,50 @@
+{
+  "workout": [
+    {
+      "intervals": 1,
+      "runs": [
+        {
+          "runType": "warm-up",
+          "runUnitType": "time",
+          "runUnitValue": "00:10:00",
+          "intensityType": "none"
+        }
+      ]
+    },
+    {
+      "intervals": 8,
+      "runs": [
+        {
+          "runType": "run",
+          "runUnitType": "distance",
+          "runUnitValue": "200",
+          "runDistanceUnit": "m",
+          "intensityType": "Pace",
+          "paceTime": "00:05:00",
+          "paceDistanceUnit": "mi"
+        },
+        {
+          "runType": "rest",
+          "runUnitType": "time",
+          "runUnitValue": "00:02:00",
+          "intensityType": "none"
+        }
+      ]
+    },
+    {
+        "intervals": 1,
+        "runs": [
+          {
+            "runType": "cool-down",
+            "runUnitType": "Distance",
+            "runUnitValue": "2",
+            "runDistanceUnit": "mi",
+            "intensityType": "Pace",
+            "paceTime" : "00:10:00",
+            "paceDistanceUnit" : "mi"
+          }
+        ]
+      }
+
+  ]
+}
